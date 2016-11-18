@@ -1,2 +1,3 @@
 <?php
-	require_once "backend/database.php";
+	require_once "backend/dbLogic.php";
+    echo 'ку-ку';

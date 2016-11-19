@@ -1,0 +1,384 @@
+@media (max-width: 1000px) {
+    .menu-icon {
+        display: none;
+        top: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        -webkit-background-size: 50%;
+        background-size: 50%;
+    }
+    .auth-icon {
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        -webkit-background-size: 50%;
+        background-size: 50%;
+    }
+    .logo {
+        top: 3px;
+    }
+    .main_video-btn {
+        display: none;
+    }
+    .main_title {
+        width: 296px;
+        font-size: 38px;
+        padding: 162px 0 34px 0;
+        line-height: 1.25;
+    }
+    .username {
+        display: none;
+    }
+    .main_title > span:before {
+        width: 12px;
+        height: 16px;
+        left: 12px;
+        margin-bottom: 15px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .main_action-btn {
+        font-size: 18px;
+    }
+    .main_action-btn span {
+        display: block;
+        font-size: 12px;
+        font-family: 'IntroRegularItalic';
+    }
+    .main_tip {
+        display: none;
+    }
+    .prizes_descr-block_title {
+        font-size: 32px;
+        line-height: 1.2;
+        width: 295px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    .prizes_descr-block_text {
+        padding: 17px 20px 0 20px;
+
+    }
+    .prizes_descr-block_rules-link {
+        padding-top: 20px;
+    }
+    .rules-list__item_1:after,
+    .rules-list__item_2:after {
+        display: none;
+    }
+    .rules-list__item {
+        display: block;
+        margin: 0 auto 62px auto;
+        padding: 50px 0 20px 0;
+    }
+    .rules-list__item_1:before {
+        margin-top: -50px;
+    }
+    .rules-list__item_2:before {
+        top: -15px;
+    }
+    .rules-list__item_3:before {
+        top: -25px;
+    }
+    .rules-list__text {
+        font-size: 16px;
+    }
+    .prizes_list > li {
+        width: 50%;
+    }
+    .idea-gallery {
+        padding-top: 30px;
+    }
+    .idea-gallery__list {
+        min-width: 0;
+    }
+    .idea-gallery__title {
+        font-size: 32px;
+        letter-spacing: normal;
+    }
+    .idea-gallery__slogan {
+        font-size: 16px;
+        margin-bottom: 0;
+        padding: 0 20px 30px 20px;
+    }
+    .idea-gallery__item {
+        width: 50% !important;
+    }
+    .mybook {
+        padding: 60px 0;
+        min-height: 0;
+    }
+    .mybook__description {
+        font-size: 16px;
+        padding: 0 20px 30px 20px;
+    }
+    .footer_legal_to-hide {
+        display: none;
+    }
+    .footer_table_cell.social-cell {
+        display: none;
+    }
+    .footer_table_cell {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_table_cell.links-cell {
+        text-align: center;
+        padding: 15px 0 10px 0;
+    }
+    .affect-logo {
+        display: block;
+        width: 100%;
+        height: 42px;
+        background: url('../images/affect.png') center no-repeat;
+        margin-bottom: 10px;
+    }
+    .footer_links {
+        padding-left: 0;
+    }
+    .user-forms_wrapper {
+        width: auto;
+    }
+    .auth-wrapper, .pass-recovery-wrapper, .reg-wrapper {
+        width: 320px;
+    }
+    .user-forms_title {
+        font-size: 32px;
+    }
+    .step-wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .step_descr {
+        font-size: 16px;
+    }
+    .step_title {
+        font-size: 26px;
+        padding-top: 0;
+    }
+    .idea-to-step_btn {
+        width: 260px;
+    }
+    .idea-to-step3_btn,
+    .idea-back_btn {
+        width: 130px;
+    }
+    .js-step2 .idea-card_table {
+        display: none;
+    }
+    .container, #navigation {
+        display: none;
+    }
+    .special-box {
+        display: inline-block;
+    }
+    .menu-list {
+        display: none;
+    }
+    .personal-page {
+        min-width: 0;
+        height: 750px;
+    }
+    .personal-page__title {
+        font-size: 32px;
+    }
+    .personal-page__wrapper {
+        padding-top: 100px;
+    }
+    .your-list {
+        min-width: 0;
+    }
+    .your-list__item {
+        width: 50%;
+    }
+    .your-list__add-item:before,
+    .your-list__add-item:after {
+        display: none;
+    }
+    .your-list__social-hint {
+        display: none;
+    }
+    .your-list__title {
+        font-size: 32px;
+    }
+    .edit-idea__title {
+        font-size: 32px;
+    }
+    .edit-idea {
+        min-width: 0;
+    }
+    .edit-idea__wrapper {
+        padding-top: 100px;
+    }
+    .personal-page__hint-wrapper {
+        display: none;
+    }
+    .idea-gallery__item:hover .idea-gallery__img {
+        -webkit-filter: none;
+        filter: none;
+    }
+    .idea-gallery__item-wrapper:after {
+        background: none;
+    }
+    .idea-gallery__item:hover .idea-gallery__item-wrapper {
+        background: rgba(71, 52, 0, 0.15);
+    }
+    .username-profile {
+        display: block;
+        right: 125%;
+        top: 5px;
+
+    }
+    .username-profile a {
+        font-size: 16px;
+    }
+    .username-profile span {
+        display: none;
+    }
+
+    .promo-modal__item_1:after,
+    .promo-modal__item_2:after,
+    .promo-modal__item_3:after,
+    .idea-modal__item_1:after,
+    .idea-modal__item_2:after,
+    .idea-modal__item_3:after {
+        display: none;
+    }
+    .promo-modal__item,
+    .idea-modal__item {
+        width: 260px;
+        margin-bottom: 30px;
+    }
+    .promo-modal__list,
+    .idea-modal__list {
+        white-space: normal;
+    }
+    .rules-modal__title {
+        font-size: 35px;
+    }
+    .promo-modal__title,
+    .idea-modal__title {
+        font-size: 35px;
+        margin: 30px 0 60px 0;
+    }
+    .winner_title {
+        font-size: 26px;
+        letter-spacing: normal;
+    }
+    .winner_descr {
+        font-size: 16px;
+    }
+    .winner_title2 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .winner_wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .prizes_list > li {
+        width: 100%;
+    }
+    .step_share_tooltip {
+        display: none;
+    }
+    .your-list__item {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+
+    .idea-gallery__item {
+        width: 100% !important;
+    }
+    .special-box {
+        width: 320px;
+        height: 200px;
+    }
+    .idea-card-preview_box {
+        height: 200px;
+        width: auto;
+    }
+    .js-step3 .idea-card_image-wrapper {
+        width: 320px;
+        height: 200px;
+    }
+    .js-step3 .idea-card_title {
+        font-size: 14px;
+    }
+    .js-step3 .idea-card_user-title {
+        padding: 10px;
+        font-size: 16px;
+        width: 320px;
+    }
+    .js-step3 .idea-card_table-cell {
+        padding: 0;
+    }
+    .js-step3 .idea-card_table {
+        width: 320px;
+        left: 50%;
+        margin-left: -160px;
+    }
+    .js-step3 .idea-card_lipton-logo {
+        width: 29px;
+        height: 29px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .personal-page__idea {
+        width: 320px;
+        height: 200px;
+    }
+    .personal-page__idea-wrapper {
+        min-height: 0;
+        height: 200px;
+        padding-top: 15px;
+    }
+    .edit-idea__start-text {
+        font-size: 14px;
+    }
+    .personal-page__main-text {
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .personal-page__descr {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .personal-page {
+        height: 650px;
+    }
+    .edit-idea__idea {
+        width: 320px;
+        height: 200px;
+    }
+    .edit-idea__idea-wrapper {
+        min-height: 0;
+        height: 200px;
+        padding-top: 15px;
+    }
+    .edit-idea__main-text {
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .edit-idea__upload-photo {
+        width: 100%;
+    }
+    .edit-idea__text {
+        width: 90%;
+        margin-left: 5%;
+        box-sizing: border-box;
+        height: 220px;
+    }
+    .edit-idea__btn-wrapper button {
+        width: 130px;
+        min-width: 0;
+    }
+}

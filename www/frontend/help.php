@@ -105,9 +105,12 @@
 <br><center>
 	Заполните данные для задания:<br>
     <form action="../backend/createRec.php" method="post">
-        Фамилия: <input type="text" name="family"><br>
-        Имя: <input type="text" name="name"><br>
-        Отчество: <input type="text" name="surname"><br>
+        <div style="<?php if(isset($_SESSION)) echo 'display:none';?>">
+            Фамилия: <input type="text" name="family"><br>
+            Имя: <input type="text" name="name"><br>
+            Отчество: <input type="text" name="surname"><br>
+            Электронный адрес: <input type="text" name="email"><br>
+        </div>
         Заголовок: <input type="text" name="title"><br>
         Услуга: <input type="text" name="Usl"><br>
         Населённый пункт: <input type="text" name="town"><br>

@@ -92,9 +92,9 @@
             $this->getHopes();
         }
 
-        public function registerUser($name, $town, $address)
+        public function registerUser($, $town, $address)
         {
-            $query = 'INSERT INTO  `users` (`name` ,`town` ,`address`) VALUES (\'%s\', \'%s\', \'%s\')';
+            $query = 'INSERT INTO  `users` (`surname`, `name`, `secname`, ``') VALUES (\'%s\', \'%s\', \'%s\')';
             $query = sprintf($query, $name, $town, $address);
             $result = mysqli_query($this->dbhandle, $query) or die('Query failed: ' . mysqli_error($this->dbhandle));
             $this->getAllUsers();

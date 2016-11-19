@@ -105,11 +105,14 @@
 <br><center>
 	Заполните данные для задания:<br>
     <form action="../backend/createRec.php" method="post">
-        <div style="<?php if(isset($_SESSION)) echo 'display:none';?>">
+        <div id="register" style="<?php if(isset($_SESSION)) echo 'display:none';?>">
             Фамилия: <input type="text" name="family"><br>
             Имя: <input type="text" name="name"><br>
             Отчество: <input type="text" name="surname"><br>
             Электронный адрес: <input type="text" name="email"><br>
+            Пароль: <input type="password" name="pass"><br>
+            Подтвердите пароль: <input type="password" name="conf_pass"><br>
+            Телефон: <input type="text" name="phone"><br>
         </div>
         Заголовок: <input type="text" name="title"><br>
         Услуга: <input type="text" name="Usl"><br>

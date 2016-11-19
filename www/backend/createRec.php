@@ -7,7 +7,7 @@
         $user_id = $_SESSION['id'];
     else
     {
-        
+        $db->registerUser()
     }
     $pub_time = date('Y-m-d H:i:s');
 

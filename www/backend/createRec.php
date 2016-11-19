@@ -1,1 +1,2 @@
-хаю-хай
+<?php
+    var_dump($_POST);

@@ -109,11 +109,11 @@
         Имя: <input type="text" name="name"><br>
         Отчество: <input type="text" name="surname"><br>
         Заголовок: <input type="text" name="title"><br>
-        Услуга: <input type="text" name=""><br>
-        Населённый пункт: </Насел>: <input type="text" name="email"><br>
-        Адрес: <input type="text" name="name"><br>
-        Время: <input type="text" name="email"><br>
-        Описание: <input type="text" name="email"><br>
+        Услуга: <input type="text" name="Usl"><br>
+        Населённый пункт: <input type="text" name="town"><br>
+        Адрес: <input type="text" name="address"><br>
+        Время: <input type="text" name="time"><br>
+        Описание: <input type="text" name="descr"><br>
         <input type="hidden" name="type" value="hope" />
 <!--        TODO: attach photo-->
         <input type="submit">

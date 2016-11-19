@@ -103,74 +103,72 @@
 
 <br>
 <br><center>
-	Заполните данные для задания:<br>
-    <form action="../backend/createRec.php" method="post">
-        <div id="register" style="<?php if(isset($_SESSION)) echo 'display:none';?>">
-            Фамилия: <input type="text" name="family"><br>
-            Имя: <input type="text" name="name"><br>
-            Отчество: <input type="text" name="surname"><br>
-            Электронный адрес: <input type="text" name="email"><br>
-            Пароль: <input type="password" name="pass"><br>
-            Подтвердите пароль: <input type="password" name="conf_pass"><br>
-            Телефон: <input type="text" name="phone"><br>
-        </div>
-        Заголовок: <input type="text" name="title"><br>
-        Услуга: <input type="text" name="Usl"><br>
-        Населённый пункт: <input type="text" name="town"><br>
-        Адрес: <input type="text" name="address"><br>
-        Время: <input type="text" name="time"><br>
-        Описание: <input type="text" name="descr"><br>
-        <input type="hidden" name="type" value="hope" />
-<!--        TODO: attach photo-->
-        <input type="submit">
-    </form>
-<!--<table border="2" cellpadding="1" cellspacing="1" style="width: 500px;">-->
-<!--	<tbody>-->
-<!--		<tr>-->
-<!--			<td>Фамилия</td>-->
-<!--			<td>family</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Имя</td>-->
-<!--			<td>name</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Отчество</td>-->
-<!--			<td>otcestvo</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Наименование задания</td>-->
-<!--			<td>name_zadaniya</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Услуга</td>-->
-<!--			<td>yslyga</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Город (село, нас. пункт)</td>-->
-<!--			<td>city</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Адрес</td>-->
-<!--			<td>adress</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Время</td>-->
-<!--			<td>time</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Примечание</td>-->
-<!--			<td>etc</td>-->
-<!--		</tr>-->
-<!--		<tr>-->
-<!--			<td>Фото</td>-->
-<!--			<td>photo</td>-->
-<!--		</tr>-->
-<!--	</tbody>-->
-<!--</table>-->
-<!--баттон-->
+    <b>Заполните данные:</b><br>
+<!--	<b>Регистрация:/b><br>-->
+<form action="../backend/createRec.php" method="post" >
+ <div style="<?php if(isset($_SESSION)) echo 'display:none';?>">  
+<table>
+	   <tr>
+    <td> Фамилия: </td>
+    <td> <input type="text" name="family" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Имя: </td>
+    <td> <input type="text" name="name" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Отчество: </td>
+    <td> <input type="text" name="surname" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Электронный адрес: </td>
+    <td> <input type="text" name="email" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Пароль: </td>
+    <td> <input type="password" name="pass" required=" " /> </td>
+   </tr>
+     <tr>
+    <td> Подтвердите пароль: </td>
+    <td> <input type="password" name="conf_pass" required=" " /> </td>
+   </tr>
+ </div>
+   <tr>
+    <td> Заголовок: </td>
+    <td> <input type="text" name="title" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Услуга: </td>
+    <td> <input type="text" name="Usl" required=" " /> </td>
+   </tr>
+  <tr>
+    <td> Населённый пункт: </td>
+    <td> <input type="text" name="town" required=" " /> </td>
+   </tr>
+ <tr>
+    <td> Адрес: </td>
+    <td> <input type="text" name="address" required=" " /> </td>
+   </tr>
 
-
+   <tr>
+    <td> Время: </td>
+    <td> <input type="password" name="time" required=" " /> </td>
+   </tr>
+   <tr>
+    <td> Описание: </td>
+    <td> <input type="password" name="descr" required=" " /> </td>
+   </tr>
+<tr>
+    <td> Фото: </td>
+    <td> <input type="file" > </td>
+   </tr>
+	
+   <tr>
+    <td colspan="2"> <input type="submit" name="r_send" value="Зарегистрироваться!" /> </td>
+   </tr>
+  </table>
+</form> 
+<p>&nbsp;</p>
 </center>
 
 

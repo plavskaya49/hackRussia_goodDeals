@@ -72,31 +72,7 @@
 </noscript>
 <!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
-<header class="header">
-	
-        	<div class="navbar-header">
-        		<a class="navbar-brand" href="http://gooddealshack.ru"><img src="_files/dd.png" alt="" class="idea-gallery__img"></a>
-        	</div>
-
-        	<div class="collapse navbar-collapse" id="navigation-example">
-        		<ul class="nav navbar-nav navbar-right">
-					
-						<li>
-	    					<a href="/login/">
-	    						Войти
-	    					</a>
-    					</li>
-						<li>
-	    					<a href="/register/">
-	    						Зарегистрироваться
-	    					</a>
-    					</li>
-					
-        		</ul>
-        	</div>
-
-
-</header>
+<?php include "template/header.php" ?>
 
 <br>
 

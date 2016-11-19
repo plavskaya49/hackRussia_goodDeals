@@ -1,5 +1,4 @@
 <?php
-
     class Database
     {
         private $dbhandle;
@@ -12,7 +11,7 @@
             //connection to the database
             $this->dbhandle = mysqli_connect($hostname, $username, $password, $db)
             or die("Unable to connect to MySQL");
-            echo "Connected to MySQL<br>";
+            //echo "Connected to MySQL<br>";
         }
 
         public function getAllUsers()
@@ -57,7 +56,7 @@
             $result = mysqli_query($this->dbhandle, $query) or die('Query failed: ' . mysqli_error());
 
             // Printing results in HTML
-            echo "<table>\n";
+            //echo "<table>\n";
             while ($line = mysqli_fetch_array($result, MYSQL_ASSOC)) {
                 echo "\t<tr>\n";
                 foreach ($line as $col_value) {
@@ -65,7 +64,7 @@
                 }
                 echo "\t</tr>\n";
             }
-            echo "</table>\n";
+            //echo "</table>\n";
         }
 
         public function getHopeInfo($id)
